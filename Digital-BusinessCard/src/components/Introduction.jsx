@@ -9,7 +9,7 @@ export default function About() {
         </section>
         <section className="interests">
             <h3>Interests</h3>
-              <p>Reader. Play Guqin. Sports-lover:running&trekking&swimming. Internet fanatic. white-hat hacker.</p>
+              <p>Reader. Play Guqin. Sports-lover:running trekking swimming. Internet fanatic. White-hat Hacker. Enjoys playing games in free time.</p>
         </section>
       </div>
     )
