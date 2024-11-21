@@ -2,6 +2,10 @@ html, body{
     margin: 0;
 }
 
+body{
+    font-family: Inter;
+}
+
 /* Header */
 header{
     background-color: #F55A5A;
@@ -32,8 +36,12 @@ header > h1{
 .main-img{
     width: 125px;
     height: 168px;
+    overflow: hidden;
+    flex-shrink: 0;
     margin: 45px 0 0 40px;
     border-radius: 8px;
+    object-fit: cover; 
+    object-position: center;
 }
 
 .info-container{
