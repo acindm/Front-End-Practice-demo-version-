@@ -2,6 +2,7 @@ html, body{
     margin: 0;
 }
 
+/* Header */
 header{
     background-color: #F55A5A;
     height: 55px;
@@ -21,4 +22,70 @@ header > h1{
     font-size: 1rem;
     font-weight: 500;
     font-family: Inter;
+}
+
+/* Card */
+.card{
+    display: flex;
+}
+
+.main-img{
+    width: 125px;
+    height: 168px;
+    margin: 45px 0 0 40px;
+    border-radius: 8px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 0 0 19px;
+}
+
+/* Location */
+.location-container {
+    font-size: 10.24px;
+}
+
+.marker-icon{
+    width: 7px;
+    height: 9.55px;
+    margin-right: 1px;
+}
+
+.location-container > span {
+    letter-spacing: 2.3px;
+    font-weight: bold;
+    color: #2B283A;
+    margin: 0 0 0 3px;
+    
+}
+
+.location-container > a {
+    margin-left: 13px;
+    color: #918E9B;
+}
+
+.text-container{
+    margin: 0 40px 0 0;
+    color: #2B283A;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 9000;
+    color: #2B283A;
+    margin: 7px 0 17px 0;
+}
+
+.trip-dates { 
+    font-size: 10.24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.description{
+    font-size: 10.24px;
+    font-weight: 350;
+    margin: 9px 0 30px 0;
 }
